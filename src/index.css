@@ -1,0 +1,43 @@
+html {
+  direction: rtl;
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+
+.form-control,
+.form-select,
+input,
+textarea {
+  direction: rtl;
+  text-align: right;
+}
+
+.table {
+  direction: rtl;
+  text-align: right;
+}
+
+.alert {
+  direction: rtl;
+  text-align: right;
+}
+
+.card {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Navbar */
+.navbar {
+  direction: rtl;
+}
+
+
+.ltr {
+  direction: ltr;
+  display: inline-block;
+}
