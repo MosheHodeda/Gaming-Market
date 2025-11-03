@@ -15,12 +15,14 @@ import Cart from './Cart'
 import Checkout from './Checkout'
 import GameDetails from './GameDetails'
 import Favorites from './Favorites'
+import GamesList from './GamesList';
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
+         <GamesList />
         <Route path="/" element={<HomeContent />} />
         <Route path="/login" element={<LoginForm />} />
         <Route path="/admin" element={<AdminDashboard />} />
