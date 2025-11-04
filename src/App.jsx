@@ -22,7 +22,6 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-         <GamesList />
         <Route path="/" element={<HomeContent />} />
         <Route path="/login" element={<LoginForm />} />
         <Route path="/admin" element={<AdminDashboard />} />
@@ -37,6 +36,7 @@ function App() {
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/game/:gameId" element={<GameDetails />} />
         <Route path="/favorites" element={<Favorites />} />
+        <Route path="/" element={<GamesList />} />
 
       </Routes>
     </Router>
